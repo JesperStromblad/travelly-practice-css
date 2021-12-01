@@ -1,0 +1,37 @@
+@media screen and (max-width: 933px) {
+  html {
+    font-size: 45%;
+  }
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 1rem;
+  }
+  .cloud {
+    height: 67rem;
+    pointer-events: none;
+  }
+  .moving-cloud-1 {
+    z-index: -1;
+  }
+  .moving-cloud-2 {
+    top: 10%;
+    z-index: -2;
+  }
+  .locations-head h3 {
+    padding: 4rem 0rem;
+    background: rgba(19, 28, 39, 0.15);
+    -webkit-text-fill-color: white;
+  }
+  .form-wrapper {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h5 {
+    padding-bottom: 4rem;
+  }
+}
+/*# sourceMappingURL=media.css.map */

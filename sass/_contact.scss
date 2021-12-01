@@ -1,0 +1,63 @@
+button {
+  color: white;
+  background: rgb(114, 137, 163);
+  border: none;
+  padding: $button-style-padding;
+  font-size: $button-style-font-size;
+  cursor: pointer;
+  transition: background 1s ease-in-out;
+}
+
+/* Transition will look at the hover and the property e.g., background */
+
+button:hover {
+  background: #27394e;
+}
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("../images/contact-mountain.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  width: 60%;
+  color: white;
+  border-radius: 20px;
+}
+
+.form-head {
+  padding: 4rem;
+  text-align: center;
+}
+.name-form,
+.email-form {
+  padding: 3rem;
+  text-align: center;
+}
+/* 
+Why margin is begin used ?
+Difference between padding and margin is explained here
+https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css
+*/
+
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.form-wrapper input {
+  padding: 1rem 3rem;
+}

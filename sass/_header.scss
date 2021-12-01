@@ -1,0 +1,47 @@
+$logo-font-size: 2.6rem;
+$main-head-bg-color: #131c27;
+$main-head-text-color: white;
+$link-text-color: white;
+h1 {
+  font-size: $logo-font-size;
+}
+
+/*
+This will only change the color of logo which h1
+for anchor tags we have to specifically change them
+*/
+
+.main-head {
+  background: $main-head-bg-color;
+  color: $main-head-text-color;
+}
+a {
+  color: $link-text-color;
+  text-decoration: none;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* How to add consistent margin */
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  /* adding padding will not make the nav section smaller than the padding applied along with min-heigh */
+  padding: 2rem;
+}
+
+#logo {
+  flex: 1 1 40rem;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
